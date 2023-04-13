@@ -1,0 +1,75 @@
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: 375px;
+    height: px;
+    background: lightblue;
+}
+
+.container {
+    background: white;
+}
+
+header {
+    display: flex;
+    border-bottom: 1px solid #C6C6C6;
+    height: 67px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    padding: 7px;
+}
+
+.logo {
+    width: 127px;
+    height: 33.02px;
+}
+
+.user {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+
+h1, p{
+    font-size: 13px;
+    margin: 0;
+}
+
+.user-location {
+    display: flex;
+    align-items: center;
+}
+
+.post-img {
+    width: 375px;
+    height: 375px;
+}
+
+.btn {
+    width: 23.3px;
+    height: 21.3px;
+    padding: 7px;
+}
+
+.like-comment {
+    width: 343px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    margin-left: 13px;
+    padding-bottom: 16px;
+}
+
+.strong {
+    font-weight: 700;
+}
+
+.comment {
+    font-weight: 400;
+}
